@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Leap Year</title>
+    <!-- Including the script.js file in the html index -->
+    <script src="script.js"></script>
+</head>
+<body>
+
+<h1>Check Leap Year</h1>
+
+<!-- Script that checks if a year is a leap year -->
+<script>
+    // Calling the "bisextile" function to check if the year is a leap year
+    let année = 2024; // Define the year to be checked
+    let isLeapYear = bisextile(année);
+
+    // Displays the result on HTML page
+    if (isLeapYear) {
+        document.write(année + " is a leap year.");
+    } 
+    else {
+        document.write(année + " is not a leap year.");
+    }
+</script>
+
+</body>
+</html>
